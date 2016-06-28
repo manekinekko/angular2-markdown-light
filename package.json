@@ -1,0 +1,28 @@
+{
+  "name": "angular2-markdown-light",
+  "version": "0.0.1",
+  "description": "A markdown component for angular 2 that parses markdown syntax and outputs HTML content.",
+  "main": "built/index.js",
+  "scripts": {
+    "deploy": "npm run tsc && npm version patch && npm publish",
+    "install": "npm run typings && npm run tsc",
+    "typings": "./node_modules/.bin/typings install --ambiant",
+    "tsc": "./node_modules/.bin/tsc"
+  },
+  "homepage": "https://github.com/manekinekko/angular2-markdown-light",
+  "bugs": "https://github.com/manekinekko/angular2-markdown-light/issues",
+  "author": "Wassim CHEGHAM",
+  "engines": {
+    "node": ">= 5.4.1 < 6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manekinekko/angular2-markdown-light.git"
+  },
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "1.7.3",
+    "typings": "0.7.7"
+  }
+}
